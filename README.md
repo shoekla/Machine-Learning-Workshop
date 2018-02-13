@@ -1,6 +1,8 @@
 # Machine Learning Workshop (Building a Movie Prediction Model using Scikit-Learn)
 
 Organizers: Abir Shukla, Pranav Vasudha, Zach Rich, Abid Kaisani and of course Purdue Hackers.
+
+
 [![N|Solid](https://scontent.ford1-1.fna.fbcdn.net/v/t31.0-8/15039595_1452337184794971_3518725059444282501_o.png?oh=4f9d299fac56b50c78023b8f00972798&oe=5B0944BD)](https://purduehackers.com/)
 
 Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. While some might find Machine Learning as a daunting subject, it can be utilized with high level libraries sub as scikit-learn.
