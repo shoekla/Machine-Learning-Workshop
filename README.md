@@ -29,7 +29,7 @@ $ pip install -U scikit-learn
 ## Part 1: Understanding what ML is and what it does
 https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
 
-## Part 2: The K nearest neighbors algorithm
+## Part 2: The K Nearest Neighbors Algorithm
 
 KNN or K nearest neighbors is a simple machine learning algorithm. Training data is represented as nodes on a graph that represents x dimensions (x represents the number of attributes the training data contains, for the example we use a simple 2 dimensional graph but the algorithm is still the same). Whenever a new node is added the algorithm finds the K nearest nodes, and uses the training on what those nodes are to predict/classify what the new node is. K is usually an odd number that will get an accurate depiction of where the node while settling ties that might occur from an even K value.
 
@@ -47,7 +47,7 @@ For a Model to perform the best it can it needs:
 
 
 
-### Step 3: Movies
+## Part 3: Movies
 
 To make a movie prediction model we need to make a movie turn into a dataset.
 
@@ -76,7 +76,7 @@ movie.py contains various methods that allow you to extract data from movies usi
 client.py contains a barebones form of IO to interact with the ML model.
 predict.py is where we will create methods that will use Machine Learning to train and test our model.
 
-### Step 4: Working with Scikit-Learn
+## Part 4: Working with Scikit-Learn
 
 Scikit-Learn requires 2 datasets for training and a 3rd for testing for the KNN algorithm and many others.
 * Features: the movie attributes that we acquired for various films
@@ -101,7 +101,7 @@ $ neigh.predict(new_movie_info)
 ```
 Now that our model is trained on a dataset, we can ask our model to predict our "labels" toward a new dataset.
 
-### Step 5: Connecting the Movie Data to the Model
+## Part 5: Connecting the Movie Data to the Model
 Now let's connect our web scraping in movie.py and our machine learning in predict.py using client.py which is how we will interact with our newly created model.
 
 
