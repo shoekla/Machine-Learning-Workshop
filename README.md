@@ -33,7 +33,7 @@ https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2r
 
 KNN or K nearest neighbors is a simple machine learning algorithm. Training data is represented as nodes on a graph that represents x dimensions (x represents the number of attributes the training data contains, for the example we use a simple 2 dimensional graph but the algorithm is still the same). Whenever a new node is added the algorithm finds the K nearest nodes, and uses the training on what those nodes are to predict/classify what the new node is. K is usually an odd number that will get an accurate depiction of where the node while settling ties that might occur from an even K value.
 
-![Alt Text](https://raw.githubusercontent.com/shoekla/Movio/master/knn.gif)
+![Alt Text](https://raw.githubusercontent.com/shoekla/Machine-Learning-Workshop/master/Docs/knn.gif)
 
 As the gif loops notice new nodes (the blue nodes) are inputted and then connect with their 3 nearest neighbors (3 being the value of K in this example). If all values are the same it turns to that value. If not, the node turns to the color that the majority of the nodes are.
 
@@ -51,7 +51,7 @@ For a Model to perform the best it can it needs:
 
 To make a movie prediction model we need to make a movie turn into a dataset.
 
-![Alt Text](https://raw.githubusercontent.com/shoekla/Movio/master/movie.png)
+![Alt Text](https://raw.githubusercontent.com/shoekla/Machine-Learning-Workshop/master/Docs/movie.png)
 
 What basic attributes can we extract that most films possess:
 
