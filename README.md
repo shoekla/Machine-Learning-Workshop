@@ -131,6 +131,6 @@ This workshop used a number of resources:
 * [IMDB] - http://www.imdb.com/
 * [Purdue Hackers] - https://purduehackers.com/
 
-ReadMe created by Dillinger
+
 
 
