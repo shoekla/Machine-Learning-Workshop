@@ -85,6 +85,13 @@ Scikit-Learn requires 2 datasets for training and a 3rd for testing for the KNN 
 * Labels: our corresponding rating towards that film
 * Testing Dataset: movie attributes from a movie not in the 'features' list (only needed to test the model not to train it)
 
+Importing Libraries
+```sh
+$ import numpy as np
+$ from sklearn.neighbors import KNeighborsClassifier
+```
+In our prediction python file (predict.py) we need to use Scikit-Learn which needs numpy.
+
 Initializing the Model
 ```sh
 $ neigh = KNeighborsClassifier(n_neighbors=3)
@@ -104,7 +111,15 @@ $ neigh.predict(new_movie_info)
 Now that our model is trained on a dataset, we can ask our model to predict our "labels" toward a new dataset.
 
 ## Part 5: Connecting the Movie Data to the Model
-Now let's connect our web scraping in movie.py and our machine learning in predict.py using client.py which is how we will interact with our newly created model.
+Now let's connect our web scraping in movie.py and our machine learning in predict.py using client.py which is how we will interact with our newly created model. The client also is responsible for:
+
+* Fetching related movies for the model to gain more datasets.
+* Resolving any errors that come up during the web scraping or prediction process
+* Storing datasets used for prediction
+
+Below is a picture of client.py in action. Notice how an error occurs with the move titled "Crazy, Stupid, Love." but continues on, and also notice that only 2 movies were manually given the rest are related movies merge quantity and quality data.
+
+![Alt Text](https://raw.githubusercontent.com/shoekla/Machine-Learning-Workshop/master/Docs/client.png)
 
 
 ### References
