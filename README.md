@@ -53,7 +53,7 @@ For a Model to perform the best it can it needs:
 
 To make a movie prediction model we need to make a movie turn into a dataset.
 
-![Alt Text](https://raw.githubusercontent.com/shoekla/Machine-Learning-Workshop/master/Docs/movie.png)
+![Alt Text](https://raw.githubusercontent.com/shoekla/Machine-Learning-Workshop/master/Docs/movie_graph.png)
 
 What basic attributes can we extract that most films possess:
 
