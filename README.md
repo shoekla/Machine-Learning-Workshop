@@ -40,13 +40,6 @@ KNN or K nearest neighbors is a simple machine learning algorithm. Training data
 As the gif loops notice new nodes (the blue nodes) are inputted and then connect with their 3 nearest neighbors (3 being the value of K in this example). If all values are the same it turns to that value. If not, the node turns to the color that the majority of the nodes are.
 
 
-### Let's build a simple model using scikit learn
-
-For a Model to perform the best it can it needs:
-
-* A large dataset
-* A quality dataset
-
 
 
 ## Part 3: Movies
@@ -84,6 +77,13 @@ Scikit-Learn requires 2 datasets for training and a 3rd for testing for the KNN 
 * Features: the movie attributes that we acquired for various films
 * Labels: our corresponding rating towards that film
 * Testing Dataset: movie attributes from a movie not in the 'features' list (only needed to test the model not to train it)
+
+### Let's build a simple model using scikit learn
+
+For a Model to perform the best it can it needs:
+
+* A large dataset
+* A quality dataset
 
 Importing Libraries
 ```sh
