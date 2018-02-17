@@ -1,4 +1,5 @@
-# Machine Learning Workshop (Building a Movie Prediction Model using Scikit-Learn)
+# A Simple Machine Learning Workshop 
+## Building a Movie Prediction Model using Scikit-Learn
 
 Organizers: Abir Shukla, Pranav Vasudha, Zach Rich, Abid Kaisani and of course Purdue Hackers.
 
