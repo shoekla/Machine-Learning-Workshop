@@ -61,11 +61,12 @@ What basic attributes can we extract that most films possess:
 ### Provided Files
 
 movie.py contains various methods that allow you to extract data from movies using IMDB.
+Methods with * next to it will be coded during the workshop together.
 
 | Method Name | Input | Output |
 | ------ | ------ |------ |
 |getMLFromName(movie_name)| String: name of movie | Array of attributes |
-|translateToML(attribute_array)| Array: list of attributes from movie| Array of attributes that is organized in a way that ml can comprehend |
+|*translateToML(attribute_array)| Array: list of attributes from movie| Array of attributes that is organized in a way that ml can comprehend |
 |getRelatedFromName(movie_name)| String: name of movie | Array of related movie names |
 
 client.py contains a barebones form of IO to interact with the ML model.
