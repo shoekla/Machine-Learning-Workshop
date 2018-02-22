@@ -32,7 +32,27 @@ $ pip install -U scikit-learn
 ## Part 1: Understanding what ML is and what it does
 https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
 
-## Part 2: The K Nearest Neighbors Algorithm
+## Part 2: Supervised vs Unsupervised Learning
+
+Generally we can categorize a machine learning algrothy into one of 2 "types".
+
+Supervised Learning:
+  - Give the model inputs and outputs and let the algorithm learning the mapping function
+  - Lets algorithm train by predicting, but supervises the learning process by giving algorithm outputs as well.
+  - Classification: Predict a category. (Car, Color, Genre)
+  - Regression: Predict a quantity. (Money, Weight, Grade)
+  - All data is labeled and the algorithms learn to predict the output from the input data.
+
+Unsupervised Learning:
+  - Only give the model inputs and let the model learn about the data on its own
+  - No correct answers, just exploring the data
+  - Clustering: Find similar data in group. (Groups of customer spending behavior) 
+  - Association: Discover rules amongst the data. (Usually if X happens, Y will also occur)
+  - All data is unlabeled and the algorithms learn to inherent structure from the input data.
+
+For this workshop we will be using KNN which is a supervised learning algorithm.
+
+## Part 3: The K Nearest Neighbors Algorithm
 
 KNN or K nearest neighbors is a simple machine learning algorithm. Training data is represented as nodes on a graph that represents x dimensions (x represents the number of attributes the training data contains, for the example we use a simple 2 dimensional graph but the algorithm is still the same). Whenever a new node is added the algorithm finds the K nearest nodes, and uses the training on what those nodes are to predict/classify what the new node is. K is usually an odd number that will get an accurate depiction of where the node while settling ties that might occur from an even K value.
 
@@ -43,7 +63,7 @@ As the gif loops notice new nodes (the blue nodes) are inputted and then connect
 
 
 
-## Part 3: Movies
+## Part 4: Movies
 
 To make a movie prediction model we need to make a movie turn into a dataset.
 
@@ -73,7 +93,7 @@ Methods with * next to it will be coded during the workshop together.
 client.py contains a barebones form of IO to interact with the ML model.
 predict.py is where we will create methods that will use Machine Learning to train and test our model.
 
-## Part 4: Working with Scikit-Learn
+## Part 5: Working with Scikit-Learn
 
 Scikit-Learn requires 2 datasets for training and a 3rd for testing for the KNN algorithm and many others.
 * Features: the movie attributes that we acquired for various films
@@ -112,7 +132,7 @@ $ neigh.predict(new_movie_info)
 ```
 Now that our model is trained on a dataset, we can ask our model to predict our "labels" toward a new dataset.
 
-## Part 5: Connecting the Movie Data to the Model
+## Part 6: Connecting the Movie Data to the Model
 Now let's connect our web scraping in movie.py and our machine learning in predict.py using client.py which is how we will interact with our newly created model. The client also is responsible for:
 
 * Fetching related movies for the model to gain more datasets.
@@ -129,6 +149,7 @@ Below is a picture of client.py in action. Notice how an error occurs with the m
 This workshop used a number of resources:
 
 * [Expert System] - http://www.expertsystem.com/machine-learning-definition/
+* [Machine Learning Mastery] - https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/
 * [Scikit-Learn] - http://ogrisel.github.io/scikit-learn.org/sklearn-tutorial/index.html
 * [IMDB] - http://www.imdb.com/
 * [Purdue Hackers] - https://purduehackers.com/
