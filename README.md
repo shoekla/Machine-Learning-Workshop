@@ -151,6 +151,7 @@ This workshop used a number of resources:
 * [Expert System] - http://www.expertsystem.com/machine-learning-definition/
 * [Machine Learning Mastery] - https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/
 * [Scikit-Learn] - http://ogrisel.github.io/scikit-learn.org/sklearn-tutorial/index.html
+* [Stack Overflow] - https://stackoverflow.com/questions/879432/what-is-the-difference-between-a-generative-and-discriminative-algorithm
 * [IMDB] - http://www.imdb.com/
 * [Purdue Hackers] - https://purduehackers.com/
 
