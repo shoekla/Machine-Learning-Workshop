@@ -52,7 +52,19 @@ Unsupervised Learning:
 
 For this workshop we will be using KNN which is a supervised learning algorithm.
 
-## Part 3: The K Nearest Neighbors Algorithm
+## Part 3: Generative vs. Discriminative Models
+
+2 types on models commonly used in machine learning are generative and discriminative models.
+
+Generative Models
+  - Cares about how data was generated
+  - Based on my generation assumption, which category is most likely to generate the signal
+
+Discriminative Models:
+  - Does not care how data was generated, simply categorizes. 
+  - Just learns the boundaries, and differences between the data 
+
+## Part 4: The K Nearest Neighbors Algorithm
 
 KNN or K nearest neighbors is a simple machine learning algorithm. Training data is represented as nodes on a graph that represents x dimensions (x represents the number of attributes the training data contains, for the example we use a simple 2 dimensional graph but the algorithm is still the same). Whenever a new node is added the algorithm finds the K nearest nodes, and uses the training on what those nodes are to predict/classify what the new node is. K is usually an odd number that will get an accurate depiction of where the node while settling ties that might occur from an even K value.
 
@@ -63,7 +75,7 @@ As the gif loops notice new nodes (the blue nodes) are inputted and then connect
 
 
 
-## Part 4: Movies
+## Part 5: Movies
 
 To make a movie prediction model we need to make a movie turn into a dataset.
 
@@ -93,7 +105,7 @@ Methods with * next to it will be coded during the workshop together.
 client.py contains a barebones form of IO to interact with the ML model.
 predict.py is where we will create methods that will use Machine Learning to train and test our model.
 
-## Part 5: Working with Scikit-Learn
+## Part 6: Working with Scikit-Learn
 
 Scikit-Learn requires 2 datasets for training and a 3rd for testing for the KNN algorithm and many others.
 * Features: the movie attributes that we acquired for various films
@@ -132,7 +144,7 @@ $ neigh.predict(new_movie_info)
 ```
 Now that our model is trained on a dataset, we can ask our model to predict our "labels" toward a new dataset.
 
-## Part 6: Connecting the Movie Data to the Model
+## Part 7: Connecting the Movie Data to the Model
 Now let's connect our web scraping in movie.py and our machine learning in predict.py using client.py which is how we will interact with our newly created model. The client also is responsible for:
 
 * Fetching related movies for the model to gain more datasets.
@@ -151,7 +163,7 @@ This workshop used a number of resources:
 * [Expert System] - http://www.expertsystem.com/machine-learning-definition/
 * [Machine Learning Mastery] - https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/
 * [Scikit-Learn] - http://ogrisel.github.io/scikit-learn.org/sklearn-tutorial/index.html
-* [Stack Overflow] - https://stackoverflow.com/questions/879432/what-is-the-difference-between-a-generative-and-discriminative-algorithm
+* [Quora] - https://www.quora.com/What-are-the-differences-between-generative-and-discriminative-machine-learning/answer/Abhinav-Litkar?share=ba930329&srid=DOxE
 * [IMDB] - http://www.imdb.com/
 * [Purdue Hackers] - https://purduehackers.com/
 
