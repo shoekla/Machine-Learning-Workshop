@@ -88,7 +88,7 @@ What basic attributes can we extract that most films possess:
 * *Genres
 * Number of Awards
 * Length of Movie
-* Related Movies?
+* Related Movies
 
 
 ### Provided Files
