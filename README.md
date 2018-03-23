@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2r
 
 ## Part 2: Supervised vs Unsupervised Learning
 
-Generally we can categorize a machine learning algrothy into one of 2 "types".
+Generally we can categorize a machine learning algorithm into one of 2 "types".
 
 Supervised Learning:
   - Give the model inputs and outputs and let the algorithm learning the mapping function
