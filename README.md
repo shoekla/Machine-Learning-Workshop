@@ -140,7 +140,7 @@ Now we need to train the model we just created. We are giving the model a list (
 
 Prediction using the Model:
 ```sh
-$ neigh.predict(new_movie_info)
+$ neigh.predict(np.array(new_movie_info).reshape(1,-1))
 ```
 Now that our model is trained on a dataset, we can ask our model to predict our "labels" toward a new dataset.
 
